@@ -1,7 +1,7 @@
-# free-api-worldcup2022
 # # World Cup 2022
 
-Grab your football API data for FIFA World Cup 2022 competition!
+Hi! I'm your first Markdown file in **StackEdit**. If you want to learn about StackEdit, you can read me. If you want to play with Markdown, you can edit me. Once you have finished with me, you can create new files by opening the **file explorer** on the left corner of the navigation bar.
+
 
 # Teams
 
@@ -13,7 +13,14 @@ A request on Team endpoint returns all information about the by Team
 
 >**Http Metod : GET** http://cup2022.ir:9080/api/v1/team/{id}
 
-## Included attributes:
+### Request
+```sh
+curl --location --request GET 'http://http://cup2022.ir:9080/api/v1/team' \
+--header 'Authorization: Bearer <token>' \
+--header 'Content-Type: application/json' \
+```
+
+### Responce
 
 ```sh
 {
@@ -47,7 +54,14 @@ A request on Team endpoint returns all information about the Match [match]
 >**Http Metod : GET** http://cup2022.ir:9080/api/v1/match/{id}
 
 
-## Included attributes:
+### Request
+```sh
+curl --location --request GET 'http://cup2022.ir:9080/api/v1/match' \
+--header 'Authorization: Bearer <token>' \
+--header 'Content-Type: application/json' \
+```
+
+### Responce
 
 ```sh
 {
@@ -90,15 +104,20 @@ A request on Team endpoint returns all information Standings by group  [day matc
 >**Http Metod : GET** http://cup2022.ir:9080/api/v1/standings/{group name : A,B,...}
 
 
+### Request
+```sh
+curl --location --request GET 'http://cup2022.ir:9080/api/v1/standings' \
+--header 'Authorization: Bearer <token>' \
+--header 'Content-Type: application/json' \
+```
 
-## Included attributes:
+### Responce
 
 ```sh
 {
 "status": "success",
 "data": [
 		{
-		"_id": "62966243800713e332e6141c",
 		"group": "A",
 		"teams": [
 						{
