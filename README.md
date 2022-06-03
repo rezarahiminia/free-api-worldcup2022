@@ -1,7 +1,7 @@
-# # World Cup 2022
+# free-api-worldcup2022
+## World Cup 2022
 
-Hi! I'm your first Markdown file in **StackEdit**. If you want to learn about StackEdit, you can read me. If you want to play with Markdown, you can edit me. Once you have finished with me, you can create new files by opening the **file explorer** on the left corner of the navigation bar.
-
+Grab your football API data for FIFA World Cup 2022 competition!
 
 # Teams
 
