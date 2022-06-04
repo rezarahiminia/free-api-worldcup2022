@@ -3,7 +3,62 @@
 ## World Cup 2022
 
 Grab your football API data for FIFA World Cup 2022 competition!
+# Register
+To use the services, you must register (free registration)
+You need a token to call services
+>**Http Metod : POST** http://cup2022.ir:9080/api/v1/user
+### Request
+```sh
+curl --location --request POST 'http://localhost:3040/api/v1/user' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+"name" : "Reza RAhiminia",
+"email": "r.rahiminia@gmail.com",
+"password": "12345678",
+"passwordConfirm" : "12345678"
+}'
+```
 
+### Responce
+
+```sh
+{
+	"status": "success",
+	"message": "User created",
+		"data": {
+		"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MjliMjJlYTZiOGYwZTVlNGNkZDcxZDMiLCJpYXQiOjE2NTQzMzQxODYsImV4cCI6MTY1NDQyMDU4Nn0.zgWUXkDCcche_5G9UnPB4VeXP68IKIRZm1UfjM457tU"
+		}
+}
+```
+
+
+# Login
+Be sure to log in to use the services
+You need a token to call services
+
+>**Http Metod : POST** http://cup2022.ir:9080/api/v1/user/login
+
+
+### Request
+```sh
+curl --location --request POST 'http://localhost:3040/api/v1/user/login' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+"email": "r.rahiminia@gmail.com",
+"password": "12345678"
+}'
+```
+
+### Responce
+
+```sh
+{
+"status": "success",
+	"data": {
+	"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MjliMjJlYTZiOGYwZTVlNGNkZDcxZDMiLCJpYXQiOjE2NTQzMzQzMTgsImV4cCI6MTY1NDQyMDcxOH0.fP6smP8HB_QHQhAPktB08FEMor_BqOQhzlgXNkN756U"
+	}
+}
+```
 # Teams
 
 A request on Team endpoint returns all information about the All Team
