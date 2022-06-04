@@ -1,4 +1,6 @@
 ![](https://english.cdn.zeenews.com/sites/default/files/2020/07/15/872723-fifa-world-cup-2022.jpg )
+![](https://komarev.com/ghpvc/?username=raminmr&style=flat-square)
+
 # free-api-worldcup2022
 ## World Cup 2022
 
@@ -233,4 +235,3 @@ curl --location --request GET 'http://cup2022.ir:9080/api/v1/standings' \
 
 }
 ```
-![](https://komarev.com/ghpvc/?username=raminmr&style=flat-square)
