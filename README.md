@@ -19,8 +19,8 @@ curl --location --request POST 'http://api.cup2022.ir/api/v1/user' \
 --data-raw '{
 "name" : "Reza RAhiminia",
 "email": "r.rahiminia@gmail.com",
-"password": "12345678",
-"passwordConfirm" : "12345678"
+"password": "******",
+"passwordConfirm" : "******"
 }'
 ```
 
