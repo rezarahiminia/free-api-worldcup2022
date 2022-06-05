@@ -1,3 +1,6 @@
+# WORLD CUP API - 2022 DATA SET
+## Live Scores(Real-time player stats)
+
 ![](https://english.cdn.zeenews.com/sites/default/files/2020/07/15/872723-fifa-world-cup-2022.jpg )
 ![](https://komarev.com/ghpvc/?username=raminmr&style=flat-square)
 
@@ -8,10 +11,10 @@ Grab your football API data for FIFA World Cup 2022 competition!
 # Register
 To use the services, you must register (free registration)
 You need a token to call services
->**Http Metod : POST** http://cup2022.ir:9080/api/v1/user
+>**Http Metod : POST** http://api.cup2022.ir/api/v1/user
 ### Request
 ```sh
-curl --location --request POST 'http://localhost:3040/api/v1/user' \
+curl --location --request POST 'http://api.cup2022.ir/api/v1/user' \
 --header 'Content-Type: application/json' \
 --data-raw '{
 "name" : "Reza RAhiminia",
@@ -38,12 +41,12 @@ curl --location --request POST 'http://localhost:3040/api/v1/user' \
 Be sure to log in to use the services
 You need a token to call services
 
->**Http Metod : POST** http://cup2022.ir:9080/api/v1/user/login
+>**Http Metod : POST** http://api.cup2022.ir/api/v1/user/login
 
 
 ### Request
 ```sh
-curl --location --request POST 'http://localhost:3040/api/v1/user/login' \
+curl --location --request POST 'http://api.cup2022.ir/api/v1/user/login' \
 --header 'Content-Type: application/json' \
 --data-raw '{
 "email": "r.rahiminia@gmail.com",
@@ -65,15 +68,15 @@ curl --location --request POST 'http://localhost:3040/api/v1/user/login' \
 
 A request on Team endpoint returns all information about the All Team
 
->**Http Metod : GET** http://cup2022.ir:9080/api/v1/team
+>**Http Metod : GET** http://api.cup2022.ir/api/v1/team
 >
 A request on Team endpoint returns all information about the by Team
 
->**Http Metod : GET** http://cup2022.ir:9080/api/v1/team/{id}
+>**Http Metod : GET** http://api.cup2022.ir/api/v1/team/{id}
 
 ### Request
 ```sh
-curl --location --request GET 'http://http://cup2022.ir:9080/api/v1/team' \
+curl --location --request GET 'http://http://api.cup2022.ir/api/v1/team' \
 --header 'Authorization: Bearer <token>' \
 --header 'Content-Type: application/json' \
 ```
@@ -103,18 +106,18 @@ curl --location --request GET 'http://http://cup2022.ir:9080/api/v1/team' \
 # Matchs
 
 A request on Matches endpoint returns all Matches information
->**Http Metod : GET** http://cup2022.ir:9080/api/v1/match
+>**Http Metod : GET** http://api.cup2022.ir/api/v1/match
 
 A request on Team endpoint returns all information match's very day  [day match's]
->**Http Metod : GET** http://cup2022.ir:9080/api/v1/bymatch/{id}
+>**Http Metod : GET** http://api.cup2022.ir/api/v1/bymatch/{id}
 
 A request on Team endpoint returns all information about the Match [match]
->**Http Metod : GET** http://cup2022.ir:9080/api/v1/match/{id}
+>**Http Metod : GET** http://api.cup2022.ir/api/v1/match/{id}
 
 
 ### Request
 ```sh
-curl --location --request GET 'http://cup2022.ir:9080/api/v1/match' \
+curl --location --request GET 'http://api.cup2022.ir/api/v1/match' \
 --header 'Authorization: Bearer <token>' \
 --header 'Content-Type: application/json' \
 ```
@@ -156,15 +159,15 @@ curl --location --request GET 'http://cup2022.ir:9080/api/v1/match' \
 # Standings
 
 A request on Matches endpoint returns all Standings information
->**Http Metod : GET** http://cup2022.ir:9080/api/v1/standings
+>**Http Metod : GET** http://api.cup2022.ir/api/v1/standings
 
 A request on Team endpoint returns all information Standings by group  [day match's]
->**Http Metod : GET** http://cup2022.ir:9080/api/v1/standings/{group name : A,B,...}
+>**Http Metod : GET** http://api.cup2022.ir/api/v1/standings/{group name : A,B,...}
 
 
 ### Request
 ```sh
-curl --location --request GET 'http://cup2022.ir:9080/api/v1/standings' \
+curl --location --request GET 'http://api.cup2022.ir/api/v1/standings' \
 --header 'Authorization: Bearer <token>' \
 --header 'Content-Type: application/json' \
 ```
