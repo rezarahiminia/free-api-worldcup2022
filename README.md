@@ -240,4 +240,4 @@ curl --location --request GET 'http://api.cup2022.ir/api/v1/standings' \
 ```
 
 ### ChangeLog
-## 2017-09-1 : Add 3 Teams => Costa Rica , Wales , Australia
+## 2022-09-1 : Add 3 Teams => Costa Rica , Wales , Australia
