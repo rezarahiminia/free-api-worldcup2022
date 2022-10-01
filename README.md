@@ -24,7 +24,7 @@ curl --location --request POST 'http://api.cup2022.ir/api/v1/user' \
 }'
 ```
 
-### Responce
+### Response
 
 ```sh
 {
@@ -54,7 +54,7 @@ curl --location --request POST 'http://api.cup2022.ir/api/v1/user/login' \
 }'
 ```
 
-### Responce
+### Response
 
 ```sh
 {
