@@ -76,7 +76,7 @@ A request on Team endpoint returns all information about the by Team
 
 ### Request
 ```sh
-curl --location --request GET 'http://http://api.cup2022.ir/api/v1/team' \
+curl --location --request GET 'http://api.cup2022.ir/api/v1/team' \
 --header 'Authorization: Bearer <token>' \
 --header 'Content-Type: application/json' \
 ```
