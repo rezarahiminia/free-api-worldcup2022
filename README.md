@@ -254,5 +254,89 @@ curl --location --request GET 'http://api.cup2022.ir/api/v1/standings' \
 
 ```
 
+
+###The number of users using this service until 28 Oct 2022
+
+
+|        country       | account |
+|:--------------------:|:-------:|
+| united States        | 4289    |
+| china                | 3394    |
+| brazil               | 1318    |
+| vietnam              | 738     |
+| germany              | 548     |
+| poland               | 450     |
+| israel               | 352     |
+| switzerland          | 290     |
+| argentina            | 259     |
+| chile                | 231     |
+| netherlans           | 190     |
+| taiwan               | 189     |
+| nepal                | 171     |
+| canada               | 161     |
+| united kingdom       | 155     |
+| france               | 143     |
+| iran                 | 116     |
+| india                | 93      |
+| colombia             | 91      |
+| morocco              | 86      |
+| finland              | 86      |
+| denmark              | 81      |
+| mexico               | 75      |
+| australia            | 68      |
+| japan                | 63      |
+| bangladesh           | 62      |
+| paraguay             | 58      |
+| uruguay              | 49      |
+| united arab          | 49      |
+| sweden               | 49      |
+| indonesia            | 48      |
+| korea                | 43      |
+| belgium              | 40      |
+| guatemala            | 36      |
+| ecuador              | 34      |
+| russian   federation | 30      |
+| thailand             | 29      |
+| malaysia             | 29      |
+| romania              | 26      |
+| venezuela            | 25      |
+| ireland              | 21      |
+| bolivia              | 19      |
+| peru                 | 18      |
+| egypt                | 17      |
+| egypt                | 17      |
+| egypt                | 17      |
+| turkey               | 16      |
+| saudi arabia         | 12      |
+| kenya                | 10      |
+| south africa         | 9       |
+| pakistan             | 9       |
+| jordan               | 9       |
+| austria              | 9       |
+| czechia              | 8       |
+| costa rica           | 8       |
+| panama               | 6       |
+| ukraine              | 4       |
+| myanmar              | 4       |
+| uzbekistan           | 3       |
+| iceland              | 3       |
+| tunisia              | 2       |
+| oman                 | 2       |
+| lithuania            | 2       |
+| kazakhstan           | 2       |
+| italy                | 2       |
+| new zeland           | 1       |
+| moldova              | 1       |
+| lebanon              | 1       |
+| kyrgzstan            | 1       |
+| iraq                 | 1       |
+| greece               | 1       |
+| ghana                | 1       |
+| bulgaria             | 1       |
+| armenia              | 1       |
+| albania              | 1       |
+
+
+
 ### ChangeLog
 ## 2022-09-1 : Add 3 Teams => Costa Rica , Wales , Australia
