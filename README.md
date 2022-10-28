@@ -239,5 +239,20 @@ curl --location --request GET 'http://api.cup2022.ir/api/v1/standings' \
 }
 ```
 
+### standings info
+
+```sh
+
+ "mp" =>  matches played
+ "w"    =>  matches won
+ "l"      =>  matches lost
+ "pts"  =>  point / score
+ "gf"   =>   goals for
+ "ga"  =>   goals against
+ "gd"  =>   goals difference
+ "d"  =>     drawn
+
+```
+
 ### ChangeLog
 ## 2022-09-1 : Add 3 Teams => Costa Rica , Wales , Australia
