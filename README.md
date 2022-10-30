@@ -114,6 +114,11 @@ A request on Team endpoint returns all information match's very day  [day match'
 A request on Team endpoint returns all information about the Match [match]
 >**Http Metod : GET** http://api.cup2022.ir/api/v1/match/{id}
 
+A request on Team endpoint returns all information about the Match [date match]
+>**Http Metod : POST** http://api.cup2022.ir/api/v1/bydate
+```sh
+{"date":"12/2/2022"}
+```
 
 ### Request
 ```sh
@@ -340,3 +345,4 @@ curl --location --request GET 'http://api.cup2022.ir/api/v1/standings' \
 
 ### ChangeLog
 ## 2022-09-1 : Add 3 Teams => Costa Rica , Wales , Australia
+## 2022-10-31 : Add api Matches by date date
