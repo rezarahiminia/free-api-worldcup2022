@@ -151,7 +151,7 @@ curl --location --request GET 'http://api.cup2022.ir/api/v1/match' \
 		"persian_date": "1400-08-30 13:30",
 		"local_date": "2022-11-21 1:00 PM",
 		"stadium_id": "1",
-		"time_elapsed": "Final",
+		"time_elapsed": "finished",      notstarted | h1 | hf | h2 | finished
 		"finished": "true",
 		"matchday": 1,
 		"home_team_fa": "سنگال",
