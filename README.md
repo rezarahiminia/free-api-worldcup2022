@@ -112,7 +112,7 @@ curl --location --request GET 'http://api.cup2022.ir/api/v1/team' \
 A request on Matches endpoint returns all Matches information
 >**Http Metod : GET** http://api.cup2022.ir/api/v1/match
 
-A request on Team endpoint returns all information match's very day  [day match's]
+A request on Team endpoint returns all information for the requested day (e.g. 2 is second day's matches of cup)  [day match's]
 >**Http Metod : GET** http://api.cup2022.ir/api/v1/bymatch/{id}
 
 A request on Team endpoint returns all information about the Match [match]
