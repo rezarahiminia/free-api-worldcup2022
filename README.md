@@ -85,7 +85,7 @@ curl --location --request GET 'http://api.cup2022.ir/api/v1/team' \
 --header 'Content-Type: application/json' \
 ```
 
-### Responce
+### Response
 
 ```sh
 {
@@ -107,18 +107,18 @@ curl --location --request GET 'http://api.cup2022.ir/api/v1/team' \
 
 
 
-# Matchs
+# Matches
 
 A request on Matches endpoint returns all Matches information
 >**Http Metod : GET** http://api.cup2022.ir/api/v1/match
 
-A request on Team endpoint returns all information for the requested day (e.g. 2 is second day's matches of cup)  [day match's]
+A request on Matches endpoint returns all information for the requested day (e.g. 2 is second day's matches of cup)  [day match's]
 >**Http Metod : GET** http://api.cup2022.ir/api/v1/bymatch/{id}
 
-A request on Team endpoint returns all information about the Match [match]
+A request on Matches endpoint returns all information about the Match [match]
 >**Http Metod : GET** http://api.cup2022.ir/api/v1/match/{id}
 
-A request on Team endpoint returns all information about the Match [date match]
+A request on Matches endpoint returns all information about the Match [date match]
 >**Http Metod : POST** http://api.cup2022.ir/api/v1/bydate
 ```sh
 {"date":"12/2/2022"}
@@ -131,7 +131,7 @@ curl --location --request GET 'http://api.cup2022.ir/api/v1/match' \
 --header 'Content-Type: application/json' \
 ```
 
-### Responce
+### Response
 
 ```sh
 {
@@ -167,10 +167,10 @@ curl --location --request GET 'http://api.cup2022.ir/api/v1/match' \
 
 # Standings
 
-A request on Matches endpoint returns all Standings information
+A request on Standings endpoint returns all Standings information
 >**Http Metod : GET** http://api.cup2022.ir/api/v1/standings
 
-A request on Team endpoint returns all information Standings by group  [day match's]
+A request on Standings endpoint returns all information Standings by group  [day match's]
 >**Http Metod : GET** http://api.cup2022.ir/api/v1/standings/{group name : A,B,...}
 
 
@@ -181,7 +181,7 @@ curl --location --request GET 'http://api.cup2022.ir/api/v1/standings' \
 --header 'Content-Type: application/json' \
 ```
 
-### Responce
+### Response
 
 ```sh
 {
